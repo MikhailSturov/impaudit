@@ -1,0 +1,26 @@
+.page-main__header {
+  width: 100%;
+  background-color: #3131317e;
+}
+
+.page-main__services {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+@media (max-width: $desktop-width) {
+  .page-main__services {
+    width: auto;
+    margin: 0;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .page-main__services {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 50px;
+  }
+}

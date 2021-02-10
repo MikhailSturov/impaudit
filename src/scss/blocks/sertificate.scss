@@ -1,0 +1,25 @@
+.sertificate-sro__wrapper {
+  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+  background-color: $bg-darkgrey;
+  position: relative;
+}
+
+.sertificate-sro__link {
+  display: block;
+  width: 100%;
+}
+
+.sertificate-sro__img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: $tablet-width) {
+  .sertificate-sro__img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
